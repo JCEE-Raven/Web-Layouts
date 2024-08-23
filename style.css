@@ -1,4 +1,7 @@
 :root {
+  /* color variables                                */
+  /* color palette used can be found on lospec      */
+  /* https://lospec.com/palette-list/late-night-bath*/
   --bgColor: #5b5d70;
   --boxColor: #74838c;
   --fontColor: #ffc4b8;
