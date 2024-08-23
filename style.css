@@ -1,0 +1,44 @@
+:root {
+  --bgColor: #5b5d70;
+  --boxColor: #74838c;
+  --fontColor: #ffc4b8;
+  --accentColor: #f69197;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--bgColor);
+}
+
+a {
+  text-decoration: none;
+  color: var(--fontColor);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--accentColor);
+}
+
+.menuContainer {
+  color: var(--fontColor);
+  background-color: var(--boxColor);
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+.menu {
+  padding: 0 0.5rem;
+  border: 1px solid var(--accentColor);
+  border-radius: 0.25rem;
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
